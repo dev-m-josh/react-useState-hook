@@ -4,11 +4,6 @@ import React, { useState } from "react";
 //used in function components only
 //hooks must be executed in the same order
 
-function countMultiple() {
-  console.log("Run once!");
-  return 10
-}
-
 function App() {
   //anything passed inside the useState will be the default value
   //the first value is the current state while the second value is the function to update the current state
