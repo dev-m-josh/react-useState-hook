@@ -32,6 +32,8 @@ function App() {
       <span>{count}</span>
       <button onClick={increamentCount}>+</button>
     </div>
+
+    {/* {using useContext() hook} */}
     <div>
       <ComponentA/>
     </div>
