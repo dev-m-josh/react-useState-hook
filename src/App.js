@@ -27,11 +27,11 @@ function App() {
 
   return (
     <>
-    {/* <div className="calculation">
+    <div className="calculation">
       <button onClick={decrementCount}>-</button>
       <span>{count}</span>
       <button onClick={increamentCount}>+</button>
-    </div> */}
+    </div>
     <div>
       <ComponentA/>
     </div>
