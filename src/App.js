@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import ComponentA from "./ComponentA";
+import './styles.css'
 
 //rules while using hooks
 //used in function components only
@@ -25,9 +27,14 @@ function App() {
 
   return (
     <>
+    {/* <div className="calculation">
       <button onClick={decrementCount}>-</button>
       <span>{count}</span>
       <button onClick={increamentCount}>+</button>
+    </div> */}
+    <div>
+      <ComponentA/>
+    </div>
     </>
   );
 }
